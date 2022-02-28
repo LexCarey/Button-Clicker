@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: rgb(185, 185, 185);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 25px;
+    align-items: center;
+    margin: 0 10% 25px;
+    font-size: 20px;
+}
+
+.header input {
+    color: black;
+    padding: 4px 6px;
+    font-size: 16px;
+    width: 40%;
+}
+
+
+.header button {
+    padding: 8px 20px;
+    font-size: 16px;
+    background-color: cornflowerblue;
+    color: white;
+    box-shadow: black 2px 2px 2px;
+}
+
+.header button:hover {
+    background-color: rgb(128, 172, 255);
+}
+
+.flex {
+    display: flex;
+}
+
+.col-2 {
+    flex: 2;
+    margin-left: 10%;
+}
+
+.ninja-1{
+    border: black solid 2px;
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    align-items: center;
+}
+
+.word-likes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 150px;
+}
+
+.word-likes :nth-child(3) {
+    margin: 3px 0 20px;
+}
+
+.word-likes button {
+    background-color: gold;
+    box-shadow: black 2px 2px 2px;
+    padding: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 120px;
+}
+
+.word-likes button:hover {
+    background-color: rgb(255, 226, 62);
+}
+
+.ninja-1 h1 {
+    font-size: 40px;
+    margin-bottom: 6px;
+}
+
+
+
+.description {
+    width: 100%;
+    font-size: larger;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px;
+}
+
+.col-1 {
+    flex: 1;
+    margin-right: 10%;
+}
+
+.defined {
+    display: flex;
+    border: black solid 2px;
+    padding: 15px;
+    flex-wrap: wrap;
+    margin-left: 7%;
+}
+
+.defined :nth-child(2) {
+    margin-bottom: 15px;
+}
+
+.defined button {
+    background-color: darkseagreen;
+    box-shadow: black 2px 2px 2px;
+    padding: 8px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.defined button:hover {
+    background-color: rgb(173, 226, 173);
+}
